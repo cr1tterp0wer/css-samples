@@ -1,0 +1,44 @@
+body{
+	min-height:2000px;
+	margin:0;
+}
+
+.cf{
+	clear:both;
+}
+#prod-dash{
+	position:fixed;
+	background:rgba(0,0,0,0.2);
+	border:1px solid black;
+	color:#000;
+	font-family:arial;
+	font-weight:600;
+	height:auto;
+	width:100px;
+	text-align:center;
+	z-index: 1;
+	padding:50px;
+}
+.p_split-double{
+	position:absolute;
+	width:100%;
+	height:500px;
+	min-height:500px;
+	overflow:hidden;
+}
+.psd_inner{
+	position:fixed;
+	width:50%;
+}
+.psd_content{
+	overflow:hidden;
+}
+.right{
+	right:0;
+}
+.left{
+	left:0;
+}
+.psd_inner img{
+	width:800px;
+}
